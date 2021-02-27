@@ -1,0 +1,45 @@
+.createNote {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	box-shadow: 2px 2px 5px grey;
+	margin-top: 30px !important;
+	width: 35vw;
+	margin: auto;
+	border-radius: 2%;
+}
+input {
+	outline: none;
+	border: white;
+	width: 90%;
+	font: "Arial";
+	font-weight: 800;
+	font-size: 20px;
+	margin: 5px 5px 5px 5px; 
+}
+textarea {
+	outline: none;
+	border: white;
+	width: 80%;
+	font: "Arial";
+	margin: 20px 5px 5px 5px;
+	resize: none;
+}
+button {
+	color: rgb(245, 170, 10);
+	background-color: white;
+	outline: none;
+	float: right;
+	border: white;
+	border-radius: 50%;
+	font-size: 30px;
+	padding: 5px 15px;
+	margin: 10px;
+	box-shadow: 2px 2px 5px grey;
+}
+button:hover {
+	color: white;
+	background-color: rgb(245, 170, 10);
+	cursor: pointer;
+}

@@ -1,0 +1,11 @@
+.header {
+	background-color: rgb(245, 170, 10);
+	box-shadow: 0 0 10px grey;
+	color: white;
+}
+h1 {
+	font: "Arial";
+	color: white;
+	padding: 5px;
+	margin-left: 15px;
+}
